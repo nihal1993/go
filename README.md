@@ -7,3 +7,14 @@ When importing a package, you can refer only to its exported names. Any "unexpor
 Run the code. Notice the error message.
 
 To fix the error, rename math.pi to math.Pi and try it again.
+
+Go folder structure
+unplex/
+├── go.mod         // Go module file
+├── main/
+│   └── hello.go   // main package, contains the main function
+├── unplex/
+│   └── unplex.go  // unplex package, contains other functions
+└── utils/
+    └── utils.go   // utils package, contains utility functions
+
